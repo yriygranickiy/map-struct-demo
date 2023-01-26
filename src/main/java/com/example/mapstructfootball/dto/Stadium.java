@@ -1,17 +1,17 @@
-package com.example.mapstructfootball.entity;
+package com.example.mapstructfootball.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-public class StadiumInfo {
+@NoArgsConstructor
+public class Stadium {
 
     private String nameStadium;
 
-    private int capacity;
+    private Integer capacity;
 
     private String city;
 
