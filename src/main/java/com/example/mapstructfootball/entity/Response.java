@@ -7,13 +7,10 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class TeamInfo {
+public class Response {
 
-    private String nameTeam;
+    private TeamInfo teamInfo;
 
-    private Integer founded;
-
-    private String country;
-
+    private StadiumInfo stadiumInfo;
 
 }
